@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PATCH_UpdatePost</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0eba7c6d-7af7-408a-81bf-72f5964b8651</testCaseGuid>
+</TestCaseEntity>

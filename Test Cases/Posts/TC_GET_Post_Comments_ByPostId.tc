@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GET_Post_Comments_ByPostId</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e19c1b7-6a57-41c4-bd2b-5f1686247e7b</testCaseGuid>
+</TestCaseEntity>
