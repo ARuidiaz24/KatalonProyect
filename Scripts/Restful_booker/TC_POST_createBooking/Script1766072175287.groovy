@@ -3,7 +3,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 
-
 // ============ PARAMETROS ============
 def data = [
 	'firstname': 'Ivan',
@@ -29,7 +28,6 @@ assert response.getElapsedTime() < 6000 : "La API está muy lenta: ${response.ge
 
 //============ PARSEO ============
 def json = new JsonSlurper().parseText(response.getResponseBodyContent())
-
 
 //============ VALIDACIONES ESTRUCTUA RESPONSE ============
 assert json.booking.firstname == data.firstname : "[ERROR] El firstname no coinciden"

@@ -3,7 +3,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper
 
-
 def response = WS.sendRequest(findTestObject('Restful_booker/GET_booking', 
 	[
 		('bookingId') : GlobalVariable.bookingid
